@@ -1,8 +1,9 @@
 .container {
+  position: relative;
   width: 700px;
   height: 800px;
   border: 4px solid;
-
   margin-top: 30px auto;
   padding: 10px;
 }
+
