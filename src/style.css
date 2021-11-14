@@ -2,7 +2,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   --transparent: 0.8;
 }
-
+body {
+  opacity: var(--transparent);
+}
 .container {
   position: relative;
   width: 700px;
@@ -55,14 +57,36 @@
   color: #6b0435;
   opacity: 1;
 }
-h3 {
+h2 {
+  font-family: cursive;
+  font-size: 35px;
   text-align: center;
+  margin: 20px;
+  padding: 15px;
 }
 .img-fluid {
-  width: 214px;
-  height: 112px;
+  width: 100%;
+  height: auto;
 }
-
+p {
+  font-family: Georgia, serif;
+}
+.card-body {
+  flex: 1 1 auto;
+}
+.card-btn {
+  background: linear-gradient(90deg, black 0%, white 100%);
+  color: white;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 20px;
+}
+.card-btn:hover {
+  color: black;
+}
 footer {
   text-align: center;
 }
