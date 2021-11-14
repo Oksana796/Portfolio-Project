@@ -2,9 +2,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   --transparent: 0.8;
 }
-body {
-  opacity: var(--transparent);
-}
+
 .container {
   position: relative;
   width: 700px;
@@ -14,6 +12,7 @@ body {
   padding: 10px;
   opacity: var(--transparent);
 }
+
 .content {
   text-align: center;
   margin: 100px;
@@ -33,7 +32,7 @@ body {
   font-size: 16px;
   font-weight: bolder;
   font-family: Georgia, serif;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-image: url("https://jooinn.com/images/nature-319.jpg");
   background-color: transparent;
   padding: 50px;
@@ -57,12 +56,27 @@ body {
   color: #6b0435;
   opacity: 1;
 }
+
+section {
+  position: relative;
+}
+
 h2 {
   font-family: cursive;
   font-size: 35px;
   text-align: center;
   margin: 20px;
   padding: 15px;
+}
+.row {
+  margin: 10px 0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
 .img-fluid {
   width: 100%;
@@ -71,9 +85,7 @@ h2 {
 p {
   font-family: Georgia, serif;
 }
-.card-body {
-  flex: 1 1 auto;
-}
+
 .card-btn {
   background: linear-gradient(90deg, black 0%, white 100%);
   color: white;
@@ -81,8 +93,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   border-radius: 4px;
-  padding: 15px;
-  margin: 20px;
+  padding: 10px;
 }
 .card-btn:hover {
   color: black;
