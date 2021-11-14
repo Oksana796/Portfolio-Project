@@ -70,7 +70,7 @@ h2 {
   padding: 15px;
 }
 .row {
-  margin: 10px 0;
+  margin: 10px;
 }
 
 .card {
@@ -102,4 +102,13 @@ p {
 footer {
   text-align: center;
   margin: 10px;
+}
+
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+  .card {
+    display: block;
+  }
 }
