@@ -1,4 +1,5 @@
 :root {
+  --font-content: Georgia, serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   --transparent: 0.8;
 }
@@ -23,7 +24,7 @@
 }
 .content h3 {
   line-height: 1.5;
-  font-family: Georgia, serif;
+  font-family: var(--font-content);
 }
 .navigation-link {
   text-decoration: none;
@@ -31,7 +32,7 @@
   justify-content: space-evenly;
   font-size: 16px;
   font-weight: bolder;
-  font-family: Georgia, serif;
+  font-family: var(--font-content);
   margin-bottom: 10px;
   background-image: url("https://jooinn.com/images/nature-319.jpg");
   background-color: transparent;
@@ -83,7 +84,7 @@ h2 {
   height: auto;
 }
 p {
-  font-family: Georgia, serif;
+  font-family: var(--font-content);
 }
 
 .card-btn {
