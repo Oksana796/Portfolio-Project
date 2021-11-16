@@ -51,11 +51,11 @@
 
 .contact-link:hover {
   color: #6b0435;
-  opacity: 1;
+ 
 }
 .about-link:hover {
   color: #6b0435;
-  opacity: 1;
+  
 }
 
 section {
@@ -99,9 +99,22 @@ p {
 .card-btn:hover {
   color: black;
 }
-footer {
+
+footer .social-box a {
+  margin: 0 10px;
+  color: black;
+  background-color: whitesmoke;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+footer p {
   text-align: center;
-  margin: 10px;
+  font-size: 14px;
+  margin: 20px;
+}
+footer p a:hover {
+   color: #6b0435;
 }
 
 @media (max-width: 600px) {
