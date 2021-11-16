@@ -4,6 +4,15 @@
   --transparent: 0.8;
 }
 
+@media (max-width: 600px) {
+  .photo-about {
+    display: block;
+  }
+  .about-blog {
+    display: block;
+  }
+}
+
 .container {
   position: relative;
   width: 700px;
@@ -115,47 +124,43 @@ footer p a:hover {
   color: #6b0435;
 }
 
-@media (max-width: 600px) {
-  img {
-    display: none;
-  }
-  .card {
-    display: block;
-  }
-}
 .home-p {
   color: black;
   opacity: var(--transparent);
-  
   font-family: cursive;
 }
 .home-p a {
-text-decoration: none;
-color: #6b0435;
+  text-decoration: none;
+  color: #6b0435;
+  font-weight: bold;
 }
+
 
 
 .navbar-about {
   max-width: 1100px;
   display: inline-block;
   margin: 0 auto;
-   
-  
+  opacity: var(--transparent);
 }
+
 .container-about {
   position: relative;
   margin: 70px auto 40px;
   max-width: 1100px;
-   
+  background-color: blanchedalmond;
 }
-
+.photo-about {
+  opacity: var(--transparent);
+}
 .about-p {
   font-family: var(--font-content);
-   opacity: var(--transparent);
+  opacity: var(--transparent);
 }
 .about-h3 {
-  font-family: cursive;
-   opacity: var(--transparent);
+  opacity: var(--transparent);
+  line-height: 1.5;
+  font-family: var(--font-content);
 }
 .email-link {
   color: black;
@@ -166,3 +171,7 @@ color: #6b0435;
   padding: 10px;
   color: #6b0435;
 }
+.email-link:hover {
+  color: black;
+  opacity: var(--transparent);
+} 
