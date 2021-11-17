@@ -92,6 +92,7 @@ h2 {
 }
 p {
   font-family: var(--font-content);
+  padding: 20px 0;
 }
 
 .card-btn {
